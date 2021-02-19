@@ -1,0 +1,14 @@
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/bin/Debug/netstandard2.0/XamarinBugs.deps.json
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/bin/Debug/netstandard2.0/XamarinBugs.dll
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/bin/Debug/netstandard2.0/ref/XamarinBugs.dll
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/bin/Debug/netstandard2.0/XamarinBugs.pdb
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/obj/Debug/netstandard2.0/XamarinBugs.csprojAssemblyReference.cache
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/obj/Debug/netstandard2.0/XamarinBugs.AssemblyInfoInputs.cache
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/obj/Debug/netstandard2.0/XamarinBugs.AssemblyInfo.cs
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/obj/Debug/netstandard2.0/XamarinBugs.csproj.CoreCompileInputs.cache
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/obj/Debug/netstandard2.0/XamarinBugs.dll
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/obj/Debug/netstandard2.0/ref/XamarinBugs.dll
+/Users/xhh2yqm/Workspace/XamarinBugs/XamarinBugs/obj/Debug/netstandard2.0/XamarinBugs.pdb

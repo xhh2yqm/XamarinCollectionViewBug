@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:viewModels="clr-namespace:XamarinBugs;assembly=XamarinBugs"
+             x:Class="XamarinBugs.MainPage" Background="Red" Padding="30" >
+    <ContentPage.BindingContext>
+        <viewModels:MainPageViewModel/>
+    </ContentPage.BindingContext>
+    <Grid RowDefinitions="Auto, Auto" >
+        <Grid Grid.Row="0" BackgroundColor="Beige">
+            <Button Grid.Column="0" Text="Button1" Command="{Binding btn1command}"/>
+            <Button Grid.Column="1" Text="Button2" Command="{Binding btn2command}"/>
+        </Grid>
+
+          <!--<Grid RowDefinitions="Auto, Auto" Grid.Row="1" BackgroundColor="Coral">
+              <Button Grid.Row="0" Text="ExpandFilter" Command="{Binding filtercommand}" IsVisible="{Binding HeaderVisible}"/>
+                <Label Grid.Row="1" BackgroundColor="Purple" Text="{Binding HeaderLabel}" IsVisible="{Binding HeaderFilterVisible}"/>
+            </Grid>-->
+
+    <RefreshView Grid.Row="2" IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}"  BackgroundColor="Green">
+    <CollectionView  BackgroundColor="Gray" >
+        <CollectionView.Header>
+           <Grid RowDefinitions="Auto, Auto" Grid.Row="1" BackgroundColor="Coral">
+              <Button Grid.Row="0" Text="ExpandFilter" Command="{Binding filtercommand}" IsVisible="{Binding HeaderVisible}"/>
+                <Label Grid.Row="1" BackgroundColor="Purple" Text="{Binding HeaderLabel}" IsVisible="{Binding HeaderFilterVisible}"/>
+            </Grid>
+            
+        </CollectionView.Header>
+        <CollectionView.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+            <x:String>mono</x:String>
+            <x:String>monodroid</x:String>
+            <x:String>monotouch</x:String>
+            <x:String>monorail</x:String>
+            <x:String>monodevelop</x:String>
+            <x:String>monotone</x:String>
+            <x:String>monopoly</x:String>
+            <x:String>monomodal</x:String>
+            <x:String>mononucleosis</x:String>
+          </x:Array>
+        </CollectionView.ItemsSource>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Label Text="{Binding .}"/>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+        </RefreshView>
+        </Grid>
+</ContentPage>
